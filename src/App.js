@@ -3,6 +3,7 @@ import styled, { createGlobalStyle } from "styled-components";
 import Header from "./Components/Header";
 import reset from "styled-reset";
 import Footer from "./Components/Footer";
+import Body from "./Components/Body";
 
 const GlobalStyle = createGlobalStyle`
   ${reset};
@@ -19,6 +20,7 @@ function App() {
     <div className="App">
       <GlobalStyle></GlobalStyle>
       <Header />
+      <Body />
       <Footer />
     </div>
   );

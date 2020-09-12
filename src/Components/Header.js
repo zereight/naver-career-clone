@@ -8,7 +8,7 @@ const HeaderContainer = styled.nav`
   width: 100%;
   display: flex;
   justify-content: space-around;
-  align-item: center;
+  align-items: center;
   padding-bottom: 10px;
   border-bottom: 1px solid black;
 `;
@@ -16,7 +16,7 @@ const HeaderContainer = styled.nav`
 const Logos = styled.div`
   width: 100%;
   display: flex;
-  align-item: center;
+  align-items: center;
   justify-content: flex-end;
 `;
 
@@ -27,7 +27,7 @@ const LOGO_IMG = styled.img`
 
 const ComponentBox = styled.div`
   display: flex;
-  align-item: center;
+  align-items: center;
   margin-right: 14px;
 `;
 

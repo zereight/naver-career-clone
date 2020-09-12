@@ -6,6 +6,7 @@ const FooterContainer = styled.footer`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 20px 10px;
 `;
 
 const Info = styled.div`
@@ -30,7 +31,7 @@ const CopyRightText = styled.span`
   color: gray;
 `;
 
-const AboutBox = styled.div`
+const AboutBox = styled.select`
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -41,6 +42,8 @@ const AboutBox = styled.div`
 `;
 
 const Footer = () => {
+  const onClick = (e) => {};
+
   return (
     <FooterContainer>
       <Info>
@@ -51,8 +54,12 @@ const Footer = () => {
             <p>&copy; NAVER Corp. </p>
           </CopyRightText>
         </InfoText>
-        <AboutBox>
-          <p>관련사이트 </p>
+        <AboutBox id="site">
+          {/* <select id="lang"> */}
+          <option value="select">관련 사이트</option>
+          <option value="Java">Java</option>
+          <option value="C++">C++</option>
+          {/* </select> */}
           <AiOutlinePlus />
         </AboutBox>
       </Info>
