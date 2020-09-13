@@ -4,7 +4,6 @@ import styled from "styled-components";
 const BodyContainer = styled.div`
   padding: 37px 37px;
   background-color: #eff0f2;
-
   height: 100vh;
 `;
 
@@ -21,13 +20,14 @@ const AnnouncementImg = styled.img`
   object-fit: cover;
   background-image: url("https://recruit.navercorp.com/img/naver/img_method_04.jpg");
   position: relative;
+  background-repeat: no-repeat;
 `;
 
 const AnnouncementText = styled.span`
   width: 100%;
   font-size: 3em;
   position: relative;
-  top: -180px;
+  top: -50vh;
   text-align: center;
   color: white;
 `;
