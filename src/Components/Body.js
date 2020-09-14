@@ -51,6 +51,14 @@ const AnnouncementContent = styled.div`
   align-items: center;
 `;
 
+const AnnouncementContentAlert = styled.span`
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background-color: green;
+  margin: 0;
+`;
+
 const CompanyInfo = styled.section`
   width: 100%;
 `;
@@ -65,10 +73,19 @@ const Body = () => {
           <p>내 일의 자부심과 무게를 느낍니다.</p>
         </AnnouncementText>
         <AnnouncementContents>
-          <AnnouncementContent>개발</AnnouncementContent>
+          <AnnouncementContent>
+            개발
+            <AnnouncementContentAlert>119</AnnouncementContentAlert>
+          </AnnouncementContent>
           <AnnouncementContent>설계(디자인)</AnnouncementContent>
-          <AnnouncementContent>콘텐츠{"&"}서비스</AnnouncementContent>
-          <AnnouncementContent>경영지원</AnnouncementContent>
+          <AnnouncementContent>
+            콘텐츠{"&"}서비스
+            <AnnouncementContentAlert>119</AnnouncementContentAlert>
+          </AnnouncementContent>
+          <AnnouncementContent>
+            경영지원
+            <AnnouncementContentAlert>6</AnnouncementContentAlert>
+          </AnnouncementContent>
         </AnnouncementContents>
       </JobAnnouncement>
       <CompanyInfo></CompanyInfo>
